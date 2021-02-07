@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional Switch</title>
+</head>
+<body>
+    <p>Estruturas de condição de múltipla escolha em PHP. Switch case em PHP usa a mesma sintaxe do Java e da Linguagem C e C++.</p>
+    <form method="get" action="a10-condicionals.php">
+        Número: <input type="number" name="num" required autofocus/><br><br>
+        <fieldset><legend>Operação Matemática</legend>
+            <input type="radio" name="oper" id="dobro" value="1" checked>
+            <label for="dobro">Dobro</label>
+            <input type="radio" name="oper" id="cubo" value="2">
+            <label for="cubo">Cubo</label>
+            <input type="radio" name="oper" id="raiz" value="3">
+            <label for="raiz">Raiz Quadrada</label>
+        </fieldset><br>
+        <fieldset><legend>Dia da Semana</legend>
+            Dia da Semana: <input type="number" name="dia" min="1" max="7" required/>
+        </fieldset><br>
+        <fieldset><legend>Regiões dos Estados Brasileiros</legend>
+            Estado: <select name="est">
+                <option name="est" value="1">Acre (AC)</option>
+                <option name="est" value="2">Alagoas (AL)</option>
+                <option name="est" value="3">Amapá (AP)</option>
+                <option name="est" value="4">Amazonas (AM)</option>
+                <option name="est" value="5">Bahia (BA)</option>
+                <option name="est" value="6">Ceará (CE)</option>
+                <option name="est" value="7">Distrito Federal (DF)</option>
+                <option name="est" value="8">Espírito Santo (ES)</option>
+                <option name="est" value="9">Goiás (GO)</option>
+                <option name="est" value="10">Maranhão(MA)</option>
+                <option name="est" value="11">Mato Grosso (MT)</option>
+                <option name="est" value="12">Mato Grosso do Sul (MS)</option>
+                <option name="est" value="13">Minas Gerais (MG)</option>
+                <option name="est"  value="14">Pará (PA)</option>
+                <option name="est" value="15">Paraíba (PB)</option>
+                <option name="est" value="16">Paraná (PR)</option>
+                <option name="est" value="17">Pernambuco (PE)</option>
+                <option name="est" value="18">Piauí (PI)</option>
+                <option name="est" value="19">Rio de Janeiro (RJ)</option>
+                <option name="est" value="20">Rio Grande do Norte (RN)</option>
+                <option name="est" value="21">Rio Grande do Sul (RS)</option>
+                <option name="est" value="22">Rondônia (RO)</option>
+                <option name="est" value="23">Roraima (RR)</option>
+                <option name="est" value="24">Santa Catarina (SC)</option>
+                <option name="est" value="25">São Paulo (SP)</option>
+                <option name="est" value="26">Sergipe (SE)</option>
+                <option name="est" value="27">Tocantins (TO)</option>
+            </select>
+        </fieldset><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
